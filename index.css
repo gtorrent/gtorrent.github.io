@@ -1,24 +1,10 @@
 body
 {
-	background-color: black;
-	color: lightgrey;
+	background-color: white;
+	color: black;
+	font-family: verdana;
 }
-#blurb
-{
-	float: left;
-	width: 50%;
-	margin: 0px;
+#fitwidth{
+	width: 100%;
 }
-#chatbox
-{
-	float: right
-	width: 50%;
-	height: 100%;
-	margin: 0px;
-}
-#irc
-{
-	width: 49%;
-	height: 96%;
-	margin: 0px;
-}
+
