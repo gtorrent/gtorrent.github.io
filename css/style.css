@@ -1,0 +1,266 @@
+/* Base
+   ================================================== */
+
+@font-face {
+    font-family: "Alte Haas Grotesk";
+    font-style: normal;
+    font-weight: normal;
+    src: local("Alte Haas Grotesk"), url(../assets/fonts/AlteHaasGroteskRegular.woff) format("woff");
+}
+
+@font-face {
+    font-family: "Alte Haas Grotesk Bold";
+    font-style: normal;
+    font-weight: normal;
+    src: local("Alte Haas Grotesk Bold"), url(../assets/fonts/AlteHaasGroteskBold.woff) format("woff");
+}
+
+* {
+    text-decoration: none
+}
+
+html {
+    background: #fff;
+    margin: 0 auto;
+    max-width: 1200px;
+}
+
+@media (max-width: 1280px) {
+    html {
+        margin-left: 40px;
+        margin-right: 40px;
+    }
+}
+
+body {
+    font-family: "Alte Haas Grotesk", "sans-serif";
+    margin: 0;
+    padding: 0;
+}
+
+#border {
+    border: 16px solid #ecedef;
+    background: none;
+    height: -moz-calc(100% - 32px);
+    height: -o-calc(100% - 32px);
+    height: -webkit-calc(100% - 32px);
+    height: calc(100% - 32px);
+    left: 0;
+    pointer-events: none;
+    position: fixed;
+    top: 0;
+    width: -moz-calc(100% - 32px);
+    width: -o-calc(100% - 32px);
+    width: -webkit-calc(100% - 32px);
+    width: calc(100% - 32px);
+    z-index: 9001;
+}
+
+::selection {
+    background: rgba(26, 163, 154, 0.5)
+}
+
+::-moz-selection {
+    background: rgba(26, 163, 154, 0.5)
+}
+
+/* Header
+   ================================================== */
+
+.logo {
+    position: absolute;
+    top: 28px;
+}
+
+header {
+    -moz-box-shadow: 0 0 0 6px #fff;
+    -webkit-box-shadow: 0 0 0 6px #fff;
+    background: #fff;
+    border-bottom: 1px solid #e2e4e7;
+    box-shadow: 0 0 0 6px #fff;
+    height: 143px;
+    max-width: 1200px;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 9000;
+}
+
+header h2 {
+    color: #00853E;
+    font-family: "Alte Haas Grotesk Bold", "sans-serif";
+    font-size: 20px;
+    font-weight: normal;
+    margin-left: 305px;
+    margin-top: -38px;
+}
+
+header h4 {
+    color: #3c4c5c;
+    font-family: "Alte Haas Grotesk Bold", "sans-serif";
+    font-size: 38px;
+    font-weight: normal;
+    margin-left: 122px;
+    margin-top: -16px;
+}
+
+header h6 {
+    color: #00853E;
+    float: right;
+    font-family: "Alte Haas Grotesk Bold", "sans-serif";
+    font-size: 18px;
+    font-weight: normal;
+    line-height: 43px;
+    position: absolute;
+    right: 85px;
+    top: 6px;
+}
+
+header h5 {
+    border-bottom: 1px solid #e2e4e7;
+    border-top: 1px solid #e2e4e7;
+    color: #00853E;
+    float: right;
+    font-family: "Alte Haas Grotesk Bold", "sans-serif";
+    font-size: 50px;
+    font-weight: normal;
+    line-height: 40px;
+    padding-bottom: 3px;
+    padding-left: 275px;
+    position: absolute;
+    right: 20px;
+    top: -37px;
+}
+
+header h1 {
+    color: #00853E;
+    font-family: "Alte Haas Grotesk", "sans-serif";
+    font-size: 20px;
+    font-weight: normal;
+    margin-left: 124px;
+    margin-top: 42px;
+}
+
+header h1 a {
+    -moz-transition: opacity 0.2s ease-in-out 0s;
+    -o-transition: opacity 0.2s ease-in-out 0s;
+    -webkit-transition: opacity 0.2s ease-in-out 0s;
+    color: #00853E;
+    transition: opacity 0.2s ease-in-out 0s;
+}
+
+header h1 a:hover {
+    color: #158c85
+}
+
+header h7 {
+    color: #3c4c5c;
+    float: right;
+    font-family: "Alte Haas Grotesk", "sans-serif";
+    font-size: 13px;
+    font-weight: normal;
+    line-height: 43px;
+    position: absolute;
+    right: 151px;
+    text-align: left;
+    top: 48px;
+    width: 200px;
+}
+
+header h5, header h6, header h7 {
+    margin-right: 66px
+}
+
+@media (min-width: 1280px) {
+    header h5, header h6, header h7 {
+        margin-right: 0px;
+    }
+}
+
+.change2, .change3, .change4 {
+    -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=0)";
+    filter: alpha(opacity=0);
+    opacity: 0;
+}
+
+/* Content
+   ================================================== */
+
+#content {
+    background: #fff;
+    margin-top: 150px;
+    max-width: 100%;
+}
+
+hr {
+    background: #e2e4e7;
+    border: none;
+    clear: both;
+    height: 1px;
+    margin-bottom: 32px;
+    margin-top: 32px;
+    width: 100%;
+}
+
+.hr1 {
+    margin-bottom: 0;
+    margin-top: -7px;
+    padding-top: 20px;
+    background: #fff;
+}
+
+.dbutton {
+    background: #00853e;
+    border-radius: 32px;
+    height: 40px;
+    width: 180px;
+    position: absolute;
+    text-align: center;
+    left: 0;
+    right: 0;
+    margin: auto;
+    margin-top: 32px;
+    border: 4px solid rgba(236,237,238,0.8);
+}
+
+.dbutton p {
+    margin-top: 10px;
+    color: #fff;
+}
+
+.frame {
+    margin-bottom: 0;
+    margin-top: 0;
+    max-width: 1200px;
+    width: 100%;
+}
+
+.frame img {
+    border: 1px solid #fff;
+    margin-bottom: 5px;
+    margin-top: 5px;
+    max-width: 100%;
+    opacity: 1;
+}
+
+.frame1 {
+    max-width: 1200px;
+    background: url(../assets/bg.jpg);
+}
+
+.frame1 img {
+    margin-bottom: -4px;
+    margin-top: 128px;
+    border: none;
+}
+
+.hr2 {
+    margin-top: 0px;
+}
+
+.frame2 p {
+    color: #3c4c5c;
+    font-family: "Alte Haas Grotesk Bold", "sans-serif";
+    font-size: 38px;
+    font-weight: normal;
+}
