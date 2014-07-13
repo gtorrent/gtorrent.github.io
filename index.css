@@ -1,0 +1,13 @@
+body
+{
+  background-color: black;
+  color: lightgrey;
+}
+#blurb
+{
+float: left;
+}
+#chatbox
+{
+float: right;
+}
