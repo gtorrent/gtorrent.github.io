@@ -176,7 +176,7 @@ header h5, header h6, header h7 {
         width: 98%;
     }
 }
-
+ 
 @media (min-width: 1280px) {
     header h5, header h6, header h7 {
         margin-right: 0px;
