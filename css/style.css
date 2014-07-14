@@ -171,6 +171,12 @@ header h5, header h6, header h7 {
     margin-right: 66px
 }
 
+@media (max-width: 980px) {
+    .frame.frame1 img {
+        width: 98%;
+    }
+}
+
 @media (min-width: 1280px) {
     header h5, header h6, header h7 {
         margin-right: 0px;
