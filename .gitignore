@@ -1,0 +1,16 @@
+# cmake 
+Makefile
+CMakeFiles/*
+CMakeCache.txt
+cmake_install.cmake
+
+# binaries
+bin/*
+build/*
+gTorrent
+
+# Ignore vim swp files
+*.swp
+
+# ctag files
+tags
