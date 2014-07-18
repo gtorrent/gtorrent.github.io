@@ -50,7 +50,7 @@
 	
 		a:hover
 		{
-			color: #f35858;
+			color: #34345C;
 			border-bottom-color: rgba(255,255,255,0);
 		}
 
@@ -109,7 +109,7 @@
 		header > span
 		{
 			display: block;
-			color: #f34848;
+			color: #34345C;
 		}
 
 		header.major
@@ -458,6 +458,8 @@
 	.fa
 	{
 		text-decoration: none;
+		-webkit-font-smoothing:antialiased;
+		-moz-osx-font-smoothing:grayscale;
 	}
 
 		.fa.solo
