@@ -1162,6 +1162,24 @@
 		position: relative;
 		z-index: 1;
 	}
+	#gtk
+	{
+		height:70px; 
+		line-height:20px; 
+		font-size:20px; 
+		margin-top: -56px; 
+		padding-top: 22px; 
+		vertical-align:middle;
+	}
+	#core
+	{
+		height:70px; 
+		line-height:20px; 
+		font-size:20px; 
+		margin-top: -56px; 
+		padding-top: 22px; 
+		vertical-align:middle;
+	}
 
 /*********************************************************************************/
 /* Copyright                                                                     */
