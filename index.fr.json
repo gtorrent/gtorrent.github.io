@@ -1,0 +1,27 @@
+{
+    "_author": "fuyukaidesu",
+    "_language": "French",
+    "_comment": "French translation.",
+    "_ind": 0,
+
+    "hero_lead": "Un client torrent conçu dès le départ pour être léger, modulaire, et ouvert.",
+    "hero_sub": "Disponible pour Windows, Mac, et Linux.",
+
+    "feature1_title": "Conçu avec<br> la simplicité en tête",
+    "feature1_sub": "gTorrent est un client conçu pour tout les utilisateurs, peu importe votre niveau",
+    "feature2_title": "Conçu avec<br> la modularité en tête",
+    "feature2_sub": "N'importe qui peut écrire sa propre interface utilisateur, pour n'importe quelle plateforme à partir d'une simple biblitothèque de base",
+
+    "examples_lead": "En plus, n'importe qui peut écrire sa propre interface utilisateur, pour n'importe quelle plateforme",
+    "examples_sub": "Voiçi certaines de nos favorites.",
+    "example1": "Celle-çi plutôt jolie",
+    "example2": "Celle-çi est très customisable",
+    "example3": "Celle-çi est pleine de merde",
+
+    "binaries": "Exécutables pour votre plateforme.",
+
+    "footer_updated": "Envie de rester à jour ?",
+    "footer_sub": "gTorrent est publié sous la licence GNU GPL, toutes contributions sont bienvenues.",
+    "footer_irc": "Rejoignez-nous sur notre IRC."
+
+}
