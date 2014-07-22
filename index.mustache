@@ -45,52 +45,50 @@
 
 		<!-- Header Wrapper -->
 			<div id="header-wrapper">
-						
-				<!-- Header -->
-					<div id="header" class="container">
-					<!--<h1 id="logo"><a href="https://github.com/gtorrent/gTorrent">fork on github</a></h1>
-						
-							
-						<nav id="nav">
-								<ul>
-									<li>
-										<a href="">Dropdown</a>
-										<ul>
-											<li><a href="#">Lorem ipsum dolor</a></li>
-											<li><a href="#">Magna phasellus</a></li>
-											<li><a href="#">Etiam dolore nisl</a></li>
-											<li>
-												<span>Phasellus consequat</span>
-												<ul>
-													<li><a href="#">Lorem ipsum dolor</a></li>
-													<li><a href="#">Phasellus consequat</a></li>
-													<li><a href="#">Magna phasellus</a></li>
-													<li><a href="#">Etiam dolore nisl</a></li>
-												</ul>
-											</li>
-											<li><a href="#">Veroeros feugiat</a></li>
-										</ul>
-									</li>
-									<li><a href="left-sidebar.html">Left Sidebar</a></li>
-									<li class="break"><a href="right-sidebar.html">Right Sidebar</a></li>
-									<li><a href="no-sidebar.html">No Sidebar</a></li>
-								</ul>
-							</nav>-->
-
-					</div>
 
 				<!-- Hero -->
-					<section id="hero" class="container" style="margin-top:-100px;">
+					<section id="hero" class="container" style="margin-top:-136px;">
 						<header>
 							<h2><img alt="Logo" src="images/logo.png" style="max-width:80%;"/></h2>
 						</header>
-						<p style="color:#eef2ff;">A torrent client built from the ground up to be lightweight, modular, and open.</p><p>Available natively for Windows, Mac, and Linux.</p>
+
+						<p style="color:#eef2ff;">A torrent client built from the ground up to be lightweight, modular, and open.</p>
+          <!-- Builds -->
+            <section class="container">
+                        <br />
+              <div class="row">
+                <section class="4u feature">
+                    <a class="button" onclick="alertPopup()" style="cursor:pointer;">
+                        <i class="fa fa-5x fa-windows"></i>
+                    </a>
+                                <br /><br />
+                </section>
+                <section class="4u feature">
+                    <a class="button" onclick="alertPopup()" style="cursor:pointer;">
+                        <i class="fa fa-5x fa-linux"></i>
+                    </a>
+                                <br /><br />
+                </section>
+                <section class="4u feature">
+                    <a class="button" onclick="alertPopup()" style="cursor:pointer;">
+                        <i class="fa fa-5x fa-apple"></i>
+                    </a>
+                                <br /><br />
+                </section>
+              </div>
+            </section>
+          </div>
+
+						<p style="color:#eef2ff;">{{{hero_lead}}}</p><p>{{{hero_sub}}}</p>
 						<ul class="actions">
 							<li><a id="featuresbtn" href="#features" class="button" style="color:#34345c;"><i class="fa fa-angle-double-down fa-2x"></i></a></li>
 						</ul>
+
 					</section>
 
 			</div>
+
+
 
 		<!-- Features 1 -->
 			<div class="wrapper" id="features">
@@ -102,33 +100,53 @@
 								<a class="image full"><img class="hovergallery2" src="images/scrot1.png" alt="Example picture one" /></a>
 							</div>
 							<header>
+                                <h2>{{{feature1_title}}}</h2>
                                 <h2>Designed with simplicity in mind</h2>
 							</header>
+
 							<p>gTorrent is designed so that no features are intrusive, although all features can be enabled if it is desired</p>
 							<ul class="actions">
-								<li><a href="" class="button">Show me</a></li>
+								<li><a href="#features" class="button">Show me</a></li>
 							</ul>
+
+							<p>{{{feature1_sub}}}</p>
+
 						</section>
 						<section class="6u feature">
 							<div class="image-wrapper">
 								<a class="image full"><img class="hovergallery2" src="images/scrot.png" alt="Example picture two" /></a>
 							</div>
 							<header>
+                                <h2>{{{feature2_title}}}</h2>
+
                                 <h2>Designed with modularity in mind</h2>
+
 							</header>
+
 							<p>Anybody can write their own UI for any platform by building on top of a single, shared core library</p>
 							<ul class="actions">
-								<li><a href="" class="button">How so?</a></li>
+								<li><a href="#features" class="button">How so?</a></li>
 							</ul>
+
+							<p>{{{feature2_sub}}}</p>
+
 						</section>
 					</div>
 				</div>
 			</div>
 		<!-- Promo -->
-			
+
 		<!-- Features 2 -->
 			<div class="wrapper">
-			
+				<section class="container" style="margin-top:-100px;">
+					<header class="major">
+						<h2>Your UI, any platform</h2>
+						<span>Here are just a few of our favorites</span>
+				<section class="container">
+					<header class="major">
+						<h2>{{{examples_lead}}}</h2>
+						<span>{{{examples_sub}}}</span>
+
 				<section class="container" style="margin-top:-30px;">
 					<header class="major">
 						<h2>Your UI, any platform</h2><br />
@@ -140,26 +158,25 @@
 							    	<a href="https://github.com/gtorrent/gTorrent" class="image full"><img src="images/pic03.jpg" alt="Theme one" /></a>
 							    </div>
                             </div>
-							<p>This one is nice and pretty<br /><br /></p>
+							<p>{{{example1}}}<br /><br /></p>
 						</section>
 						<section class="4u feature">
 							<div class="hovergallery">
 								<a href="https://github.com/gtorrent/gTorrent" class="image full"><img src="images/pic04.jpg" alt="Theme two"/></a>
 							</div>
-							<p>This one is very customizable<br /><br /></p>
+							<p>{{{example2}}}<br /><br /></p>
 						</section>
 						<section class="4u feature">
 							<div class="hovergallery">
 								<a href="https://github.com/gtorrent/gTorrent" class="image full"><img src="images/pic05.jpg" alt="Theme three" /></a>
 							</div>
-							<p>This one is full of shit<br /><br /></p>
+							<p>{{{example3}}}<br /><br /></p>
 						</section>
 					</div>
 <!--					<ul class="actions major">
 						<li><a href="#" class="button">Elevate my awareness</a></li>
 					</ul>-->
 				</section>
-			
 
 			<!-- Builds -->
 				<section class="container" style="margin-top:80px;">
@@ -192,7 +209,6 @@
 					</div>
 				</section>
 			</div>
-			
 
 		<!-- Footer Wrapper -->
 			<div id="footer-wrapper">
@@ -200,6 +216,7 @@
 				<!-- Footer -->
 					<div id="footer" class="container">
 						<header class="major">
+
 							<h2>Want to stay updated?</h2>
 							<span>gTorrent is released under the GNU GPL, and contributions are welcome.</span>
                             <span style="margin-top:20px;">
@@ -220,9 +237,19 @@
 						    </span>
                             <span style="margin-top:-40px;">
 						        <a class="button" target="_blank" href="https://qchat.rizon.net/?channels=gtorrent">
-                                    <i class="fa fa-lg fa-comment-o" ></i>&nbsp;		#gtorrent
+                                    <i class="fa fa-lg fa-comment-o" ></i>&nbsp;		Web IRC</i>
 						        </a>
+								<br/>
+								<a href="irc://irc.rizon.net/gtorrent" style="font-size:18px;">gchat.rizon.net #gtorrent</a>
                             </span>
+
+							<h2>{{{footer_updated}}}</h2>
+							<span>{{{footer_sub}}}</span>
+						    <a href="https://github.com/gtorrent/gTorrent" class="button">
+						    <i class="fa fa-lg fa-github"></i>&nbsp;  GitHub</a>
+						    <span>{{{footer_irc}}}</span>
+						    <a class="button" target="about:blank" href="https://qchat.rizon.net/?channels=gtorrent"><i class="fa fa-lg fa-comment-o" ></i>&nbsp;		#gtorrent</a>
+
 						</header>
 						<!--<div class="row">
 							<section class="6u">
