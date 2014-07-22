@@ -101,6 +101,7 @@
 							</div>
 							<header>
                                 <h2>{{{feature1_title}}}</h2>
+                                <h2>Designed with simplicity in mind</h2>
 							</header>
 
 							<p>gTorrent is designed so that no features are intrusive, although all features can be enabled if it is desired</p>
@@ -117,6 +118,9 @@
 							</div>
 							<header>
                                 <h2>{{{feature2_title}}}</h2>
+
+                                <h2>Designed with modularity in mind</h2>
+
 							</header>
 
 							<p>Anybody can write their own UI for any platform by building on top of a single, shared core library</p>
@@ -129,14 +133,11 @@
 						</section>
 					</div>
 				</div>
-
 			</div>
-
 		<!-- Promo -->
 
 		<!-- Features 2 -->
 			<div class="wrapper">
-
 				<section class="container" style="margin-top:-100px;">
 					<header class="major">
 						<h2>Your UI, any platform</h2>
@@ -145,6 +146,10 @@
 					<header class="major">
 						<h2>{{{examples_lead}}}</h2>
 						<span>{{{examples_sub}}}</span>
+
+				<section class="container" style="margin-top:-30px;">
+					<header class="major">
+						<h2>Your UI, any platform</h2><br />
 					</header>
 					<div class="row features">
 						<section class="4u feature">
@@ -173,6 +178,38 @@
 					</ul>-->
 				</section>
 
+			<!-- Builds -->
+				<section class="container" style="margin-top:80px;">
+					<header class="major">
+						<h2>Download for your OS</h2>
+					</header>
+                    <br />
+					<div class="row">
+						<section class="4u feature">
+						    <a class="button" onclick="alertPopup()" style="cursor:pointer;">
+						        <i class="fa fa-5x fa-windows"></i>
+						    </a>
+                            <br /><br />
+						    <span>Windows</span>
+						</section>
+						<section class="4u feature">
+						    <a class="button" onclick="alertPopup()" style="cursor:pointer;">
+						        <i class="fa fa-5x fa-linux"></i>
+						    </a>
+                            <br /><br />
+						    <span>GNU/Linux</span>
+						</section>
+						<section class="4u feature">
+						    <a class="button" onclick="alertPopup()" style="cursor:pointer;">
+						        <i class="fa fa-5x fa-apple"></i>
+						    </a>
+                            <br /><br />
+						    <span>Mac OS X</span>
+						</section>
+					</div>
+				</section>
+			</div>
+
 		<!-- Footer Wrapper -->
 			<div id="footer-wrapper">
 
@@ -187,11 +224,11 @@
                                 <i class="fa fa-github"></i> GitHub
                             </span>
                             <span style="height:40px;">
-                                <a class="button" target="_blank" href="https://github.com/gtorrent/gtorrent-gtk"  style="height:70px; line-height:20px; font-size:20px; margin-top: -56px; padding-top: 22px; vertical-align:middle;">
+                                <a id="gtk" class="button" target="_blank" href="https://github.com/gtorrent/gtorrent-gtk">
                                     <i class="fa fa-list-alt"></i>&nbsp;  gtorrent-gtk
                                 </a>
                                 &nbsp;&nbsp;
-                                <a class="button" target="_blank" href="https://github.com/gtorrent/gtorrent-core" style="height:70px; line-height:20px; font-size:20px; margin-top: -56px; padding-top: 22px; vertical-align:middle;">
+                                <a id="core" class="button" target="_blank" href="https://github.com/gtorrent/gtorrent-core">
                                     <i class="fa fa-file-code-o"></i>&nbsp;  gtorrent-core
                                 </a>
                             </span>
