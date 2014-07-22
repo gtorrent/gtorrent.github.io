@@ -280,6 +280,7 @@
 }
 .fa-list-alt:before {
   content: "\f022";
+  vertical-align:middle;
 }
 .fa-lock:before {
   content: "\f023";
@@ -632,6 +633,7 @@
 }
 .fa-github:before {
   content: "\f09b";
+  vertical-align: -5%;
 }
 .fa-unlock:before {
   content: "\f09c";
@@ -1486,6 +1488,7 @@
 }
 .fa-file-code-o:before {
   content: "\f1c9";
+  vertical-align: -5%;
 }
 .fa-vine:before {
   content: "\f1ca";

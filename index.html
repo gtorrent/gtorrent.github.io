@@ -35,6 +35,11 @@
                 });
             });
         </script>
+        <script>
+            function alertPopup() {
+                alert("Downloads are not ready yet");
+            }
+        </script>
 	</head>
 	<body class="homepage">
 
@@ -75,7 +80,7 @@
 					</div>
 
 				<!-- Hero -->
-					<section id="hero" class="container">
+					<section id="hero" class="container" style="margin-top:-100px;">
 						<header>
 							<h2><img alt="Logo" src="images/logo.png" style="max-width:80%;"/></h2>
 						</header>
@@ -99,7 +104,7 @@
 							<header>
                                 <h2>Designed with<br> simplicity in mind</h2>
 							</header>
-							<p>gTorrent is a client for all users, no matter how technical or casual they are</p>
+							<p>gTorrent is designed so that no features are intrusive, although all features can be enabled if it is desired</p>
 							<ul class="actions">
 								<li><a href="" class="button">Show me</a></li>
 							</ul>
@@ -126,7 +131,7 @@
 		<!-- Features 2 -->
 			<div class="wrapper">
 			
-				<section class="container">
+				<section class="container" style="margin-top:-100px;">
 					<header class="major">
 						<h2>Your UI, any platform</h2>
 						<span>Here are just a few of our favorites</span>
@@ -160,24 +165,31 @@
 			
 
 			<!-- Builds -->
-				<section class="container">
+				<section class="container" style="margin-top:80px;">
 					<header class="major">
-						<h2>Binaries for your platform</h2>
+						<h2>Download for your platform</h2>
 					</header>
+                    <br />
 					<div class="row">
 						<section class="4u feature">
-						    <a href="#" class="button">
-						    <i class="fa fa-5x fa-windows"></i></a><br /><br />
+						    <a class="button" onclick="alertPopup()" style="cursor:pointer;">
+						        <i class="fa fa-5x fa-windows"></i>
+						    </a>
+                            <br /><br />
 						    <span>Windows</span>
 						</section>
 						<section class="4u feature">
-						    <a href="#" class="button">
-						    <i class="fa fa-5x fa-linux"></i></a><br /><br />
+						    <a class="button" onclick="alertPopup()" style="cursor:pointer;">
+						        <i class="fa fa-5x fa-linux"></i>
+						    </a>
+                            <br /><br />
 						    <span>GNU/Linux</span>
 						</section>
 						<section class="4u feature">
-						    <a href="#" class="button">
-						    <i class="fa fa-5x fa-apple"></i></a><br /><br />
+						    <a class="button" onclick="alertPopup()" style="cursor:pointer;">
+						        <i class="fa fa-5x fa-apple"></i>
+						    </a>
+                            <br /><br />
 						    <span>Mac OS X</span>
 						</section>
 					</div>
@@ -193,16 +205,27 @@
 						<header class="major">
 							<h2>Want to stay updated?</h2>
 							<span>gTorrent is released under the GNU GPL, and contributions are welcome.</span>
-                            <span>Review the code, submit bug reports, and more at&nbsp;&nbsp;&nbsp;&nbsp;
-                                <a class="button" target="_blank" href="https://github.com/gtorrent/gTorrent" >
-                                    <i class="fa fa-lg fa-github"></i>&nbsp;  GitHub
+                            <span style="margin-top:20px;">
+                                Review the code, submit bug reports, and more at&nbsp;
+                                <i class="fa fa-github"></i> GitHub
+                            </span>
+                            <span style="height:40px;">
+                                <a class="button" target="_blank" href="https://github.com/gtorrent/gtorrent-gtk"  style="height:70px; line-height:20px; font-size:20px; margin-top: -56px; padding-top: 22px; vertical-align:middle;">
+                                    <i class="fa fa-list-alt"></i>&nbsp;  gtorrent-gtk
+                                </a>
+                                &nbsp;&nbsp;
+                                <a class="button" target="_blank" href="https://github.com/gtorrent/gtorrent-core" style="height:70px; line-height:20px; font-size:20px; margin-top: -56px; padding-top: 22px; vertical-align:middle;">
+                                    <i class="fa fa-file-code-o"></i>&nbsp;  gtorrent-core
                                 </a>
                             </span>
-						    <span>Join us on IRC for discussions and collaborations&nbsp;&nbsp;&nbsp;&nbsp;
-						        <a class="button" target="_blank" href="https://qchat.rizon.net/?channels=gtorrent" style="height:initial;">
+						    <span style="margin-top:30px;">
+                                Join us on IRC for discussions and collaborations
+						    </span>
+                            <span style="margin-top:-40px;">
+						        <a class="button" target="_blank" href="https://qchat.rizon.net/?channels=gtorrent">
                                     <i class="fa fa-lg fa-comment-o" ></i>&nbsp;		#gtorrent
 						        </a>
-						    </span>
+                            </span>
 						</header>
 						<!--<div class="row">
 							<section class="6u">
@@ -248,11 +271,15 @@
 					</div>-->
 
 				<!-- Copyright -->
-					<div id="copyright" class="container">
-						<ul class="menu">
-							<li>site made with <i class="fa fa-heart"></i><br /> by yttrium and explouad</li>
+					<div id="copyright" class="container" style="margin-top:0px;">
+						<ul class="menu" style="margin-bottom:-50px; margin-top:-30px;">
+							<li style="vertical-align:-60%;">site made with <i class="fa fa-heart"></i><br /> by yttrium and explouad</li>
 							<li>based on <a href="http://html5up.net/">HTML5 UP</a></li>
-							<li>logo&nbsp;&nbsp;&nbsp;<a rel="license" href="http://creativecommons.org/licenses/by-sa/4.0/"><img alt="Creative Commons License" src="images/ccbysa.png" style="vertical-align:middle;"/></a></li>
+							<li>logo&nbsp;&nbsp;
+                                <a rel="license" href="http://creativecommons.org/licenses/by-sa/4.0/">
+                                    <img alt="Creative Commons License" src="images/ccbysa.png" style="vertical-align: -22%; opacity: 0.4; height: 24px;"/>
+                                </a>
+							</li>
 						</ul>
 					</div>
 
